@@ -8,7 +8,7 @@
 import SwiftUI
 import MediaPlayer
 
-struct ContentView: View {
+struct ControlPanel: View {
     @State private var count = 0
     @State var isDark = false
     @State var immersed = false
@@ -213,7 +213,7 @@ struct ContentView: View {
             }.tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
             
             // 电池组件
-            BatteryView().frame(maxWidth: .infinity, maxHeight: .infinity).offset(x: 0, y: 100)
+            BatteryView().frame(maxWidth: .infinity, maxHeight: .infinity).offset(x: 0, y: 130)
             
             
             if (!immersed) {
@@ -255,7 +255,7 @@ struct ContentView: View {
 
 struct ContentView_Previews1: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ControlPanel()
     }
 }
 

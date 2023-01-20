@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B5676062843CCA40028DE11 /* HelloWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5676052843CCA40028DE11 /* HelloWorldApp.swift */; };
-		2B5676082843CCA50028DE11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5676072843CCA50028DE11 /* ContentView.swift */; };
+		2B5676082843CCA50028DE11 /* ControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5676072843CCA50028DE11 /* ControlPanel.swift */; };
 		2B56760A2843CCA70028DE11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5676092843CCA70028DE11 /* Assets.xcassets */; };
 		2B56760D2843CCA70028DE11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B56760C2843CCA70028DE11 /* Preview Assets.xcassets */; };
 		2BBA3A37296F227D0070CD21 /* SwiftUITabLayout in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA3A36296F227D0070CD21 /* SwiftUITabLayout */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		2B5676022843CCA40028DE11 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5676052843CCA40028DE11 /* HelloWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldApp.swift; sourceTree = "<group>"; };
-		2B5676072843CCA50028DE11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B5676072843CCA50028DE11 /* ControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanel.swift; sourceTree = "<group>"; };
 		2B5676092843CCA70028DE11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B56760C2843CCA70028DE11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2BBA3A36296F227D0070CD21 /* SwiftUITabLayout */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftUITabLayout; path = "../../../Downloads/SwiftUITabLayout-main/SwiftUITabLayout/SwiftUITabLayout"; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				2B5676052843CCA40028DE11 /* HelloWorldApp.swift */,
-				2B5676072843CCA50028DE11 /* ContentView.swift */,
+				2B5676072843CCA50028DE11 /* ControlPanel.swift */,
 				2B5676092843CCA70028DE11 /* Assets.xcassets */,
 				2B56760B2843CCA70028DE11 /* Preview Content */,
 			);
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B5676082843CCA50028DE11 /* ContentView.swift in Sources */,
+				2B5676082843CCA50028DE11 /* ControlPanel.swift in Sources */,
 				2B5676062843CCA40028DE11 /* HelloWorldApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
